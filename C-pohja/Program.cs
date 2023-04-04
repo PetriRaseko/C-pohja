@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tiedosto
+namespace C_pohja
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Moi!");
         }
     }
 }

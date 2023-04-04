@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5D1EEE5-D42D-47CB-82D8-1F547B66688D}</ProjectGuid>
+    <ProjectGuid>{B6169A05-021B-43DD-8C55-5537E580FED8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>C_pohja</RootNamespace>
-    <AssemblyName>C pohja</AssemblyName>
+    <AssemblyName>C-pohja</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
