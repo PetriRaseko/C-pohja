@@ -11,4 +11,11 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Test
-      run: dotnet run
+      run: |
+        output=$(dotnet run)
+        if [ "$output" == "Hello World!" ]; then
+          echo "Test passed!"
+        else
+          echo "Test failed."
+          exit 1
+        fi
